@@ -1,5 +1,6 @@
 
 import { Carousel } from '../components/Carousel';
+import catalogo2026 from '../assets/catalogo2026.pdf'
 
 export function Main() {
   return (
@@ -22,7 +23,7 @@ export function Main() {
                 eficiente y sostenible.
               </p>
 
-              <a href="#" className="btn hero-btn">
+              <a className="btn hero-btn" href={catalogo2026} target='_blank' rel="noopener noreferrer">
                 Ver Catálogo
               </a>
 
